@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFACF1EA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="MY SHOPPING LIST"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:onClick="click"
+        android:id="@+id/button1"
+        android:text="Mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/circle"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:onClick="click"
+        android:text="Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/circle"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="click"
+        android:text="Electronics"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="80dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="80dp"
+    android:background="@drawable/circle"
+    />
+
+
+</LinearLayout>
